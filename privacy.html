@@ -46,7 +46,7 @@
     <main>
       <header>
         <h1>Privacy Policy — CUCO Currency &amp; Travel</h1>
-        <p class="updated">Last updated: 22 October 2026</p>
+        <p class="updated">Last updated: 28 October 2026</p>
       </header>
 
       <p>
@@ -74,9 +74,10 @@
         <li>The currencies in your rates list, and their order</li>
         <li>Your rate alerts and whether they have triggered</li>
         <li>
-          Your trips, expenses, categories, notes, and the exchange rate recorded
-          with each expense
+          Your trips (name, destination, dates and budget), expenses, categories,
+          notes, and the exchange rate recorded with each expense
         </li>
+        <li>The ids of the calendar events an imported trip came from</li>
         <li>Your settings: home currency, chosen theme, and recent currency pairs</li>
         <li>A cached copy of the most recent exchange rates, so the app works offline</li>
       </ul>
@@ -126,20 +127,30 @@
         aggregate reporting, such as how many ads were shown.
       </p>
 
+      <h2>In-app purchase</h2>
+      <p>
+        Remove ads is a one-time purchase handled by Google Play or the App Store. To check whether you own it, the app contacts RevenueCat, our purchase provider, each time it starts; RevenueCat receives an anonymous app user ID, your purchase history for this app, and basic device and network information such as your IP address. RevenueCat does not receive your name or anything you enter in CUCO.
+      </p>
+
       <h2>Usage analytics (Android)</h2>
       <p>
         The Android version of CUCO uses <strong>Google Analytics for Firebase</strong> to count
-        how the app is used: which screens are opened (for example Convert, Rates or Budget),
+        how the app is used: which screens are opened (for example Today, Spend, Wallet or Tools),
         which features are used (such as completing a conversion, creating a rate alert or
         adding an expense), the currency codes involved (for example USD and EUR), the expense
         category chosen, how often the app is opened, and the device model, operating system
         version, app version and approximate country. It does not record amounts you type,
-        trip names, notes, or the values of your expenses, wallet or alerts.
+        trip names, dates, budgets, notes, calendar contents, or the values of your expenses, wallet or alerts.
       </p>
       <p>
         This data is collected by Google on our behalf and governed by Google's
         <a href="https://policies.google.com/privacy">Privacy Policy</a>. We see only aggregate
         reports and use them to decide what to improve.
+      </p>
+
+      <h2>Calendar</h2>
+      <p>
+        If you tap Find trips in my calendar, CUCO asks for permission to read your calendar. It looks for flight and hotel events from yesterday to twelve months ahead to suggest trips. Event titles, places and dates are read on your device only. When you add a suggested trip, CUCO saves that trip (its city, currency and dates) and the ids of the calendar events it came from, so they are not suggested again. Nothing else from your calendar is stored, and nothing is sent to us, to Google Analytics or to anyone else. You can turn calendar access off at any time in your device settings.
       </p>
 
       <h2>Permissions</h2>
@@ -151,6 +162,7 @@
           content is sent to a server. You may decline, and the rest of the app
           works normally.
         </li>
+        <li><strong>Calendar (read)</strong> — only when you use Find trips in my calendar.</li>
       </ul>
       <p>
         CUCO does not request location, contacts, camera, microphone, or access to
